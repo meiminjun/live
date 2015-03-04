@@ -1,0 +1,80 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<title>商场实时运营监控中心</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<link rel="stylesheet" type="text/css" media="all" href="styles/style.css" />
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/jquery.mobile-1.2.0.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/jquery.jsonp-2.3.1.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/FusionCharts/FusionCharts.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/jshashtable.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/jquery.numberformatter-1.2.3.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/jquery.flipCounter.1.2.pack.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/iscroll.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/cordova.js"></script>
+	<script type="text/javascript" charset="utf-8" src="scripts/PageView.js"></script>
+	<script type="text/javascript" charset="utf-8" src="scripts/SalesView.js"></script>
+	<script type="text/javascript" charset="utf-8" src="scripts/TrafficView.js"></script>
+	<script type="text/javascript" charset="utf-8" src="scripts/AlertView.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Common/scripts/PhoneGapAPI.js"></script>
+</head>
+<body onload="onLoad()">
+	<header>
+		<div class="head">
+			<div class="logo">
+				<!-- <img src="images/back.png" border="0" align="middle" onclick="PhoneGapAPI.exit()" /> -->
+				<a class="backbutton" onclick="PhoneGapAPI.exit()">返回</a>
+			</div>
+			<div class="title">
+				<span id="CountryTitle"></span>
+				<img src="images/mall_close.png" border="0" align="absmiddle" style="cursor: pointer;"
+				onclick="Head.setMore()" id="MallMore" />
+			</div>
+		</div>
+		<div class="mall">
+			<div id="Area">
+				<div class="Country">
+					<img src="Common/images/Project/1.jpg" id="CountryImage" style="cursor: pointer;" />
+					<ul></ul>
+				</div>
+				<div class="AreaList">
+					<ul></ul>
+				</div>
+			</div>
+			<div id="mall">
+				<ul></ul>
+			</div>
+		</div>
+	</header>
+
+	<article>
+		<div class="middle" id="Middle">
+			<dt>
+				<dl id="load1">
+					&nbsp;
+				</dl>
+				<dl>
+				</dl>
+				<dl id="load2">
+					&nbsp;
+				</dl>
+			</dt>
+			<div class="resize">
+				<img src="images/resize-bar.png" align="middle" />
+			</div>
+		</div>
+	</article>
+	<footer>
+		<div class="bottom" id="Module">
+			<ul>
+			</ul>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		ScreenAdapt();
+	</script>
+</body>
+</html>

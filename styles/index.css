@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	width: 320px;
+	height: 480px;
+	overflow: hidden;
+}
+#page
+{
+	background-image: url(images/login/login-page-bg.jpg);
+	background-repeat: no-repeat;
+}
+
+#form
+{
+	margin-left: 11px;
+	margin-top: 94px;
+	width: 275px;
+	height: 283px;
+	background-image: url(images/login/login-form-bg.png);
+	background-repeat: no-repeat;
+}
+
+h2#title
+{
+	margin-left: 10px;
+	margin-top: 45px;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+table tr
+{
+    height: 10px;
+    border: 10px red solid;
+}
+.ui-body-c, .ui-overlay-c
+{
+	background: none;
+}
+
+.fieldcontain .left
+{
+	float: left;
+}
+.fieldcontain .right
+{
+	float: left;
+	margin-left: 20px;
+	width: 100px;
+}
