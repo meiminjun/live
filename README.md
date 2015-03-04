@@ -1,3 +1,3 @@
 # live
 这是一个监控app
-asdf
+在9cloud中https中ajax请求http是不行的
